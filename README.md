@@ -7,11 +7,11 @@ python demo.py
 ```
 |example 1 | output | example 2 | output |
 |----------|--------|-----------|--------|
-|<img src="https://github.com/binli123/cs838projectdemo/blob/master/samples/9_3814.jpg" width="200">|<img src="https://github.com/binli123/cs838projectdemo/blob/master/results/9_3814.bmp" width="200">|<img src="https://github.com/binli123/cs838projectdemo/blob/master/samples/9_2965.jpg" width="200">|<img src="https://github.com/binli123/cs838projectdemo/blob/master/results/9_2965.bmp" width="200">|
+|<img src="https://github.com/RobinhoodKi/CS838_Project/blob/master/samples/9_3814.jpg" width="200">|<img src="https://github.com/RobinhoodKi/CS838_Project/blob/master/results/9_3814.bmp" width="200">|<img src="https://github.com/RobinhoodKi/CS838_Project/blob/master/samples/9_2965.jpg" width="200">|<img src="https://github.com/RobinhoodKi/CS838_Project/blob/master/results/9_2965.bmp" width="200">|
 
 Detailed arguments:
 ```
-python demo.py 
+python demo.py
 [--weights_test]  # the path of model checkpoint      default: (str) model/checkpoint.pth.tar
 [--test_dir]      # the directory of testing samples  default: (str) samples/*.jpg
 [--output_dir]    # the directory to store output     default: (str) results/
@@ -29,5 +29,5 @@ pip install -r requirement.txt
 Please find the `train.ipynb` to see our implementation and training details.
 
 ## Evaluation
-Please find the `eval_IoU.ipynb` to see the quantitative results. Note that 
+Please find the `eval_IoU.ipynb` to see the quantitative results. Note that
 we randomly sample three results from each method and then calculate their mIoU with the ground-truth labels.
